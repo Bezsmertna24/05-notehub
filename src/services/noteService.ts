@@ -49,3 +49,4 @@ export async function deleteNote(id: string):Promise<Note> {
      });
     return response.data;
  }
+
