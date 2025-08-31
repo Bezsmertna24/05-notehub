@@ -10,7 +10,7 @@ import Modal from '../Modal/Modal';
 import NoteForm from '../NoteForm/NoteForm';
 
 export default function App() {
-  const [searchText, setSearchText] = useState('');
+  const [searchText, setSearchText] = useState ('');
   const [debouncedText] = useDebounce(searchText, 500);
   const [page, setPage] = useState(1);
   const [isModalOpen, setModalOpen] = useState(false);

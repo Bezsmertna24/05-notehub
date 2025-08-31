@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { Note } from "../types/note";
 
-const NOTEHUB_KEY = import.meta.env.VITE_NOTEHUB_KEY;
+const NOTEHUB_KEY = import.meta.env.VITE_NOTEHUB_TOKEN;
 const LINK = 'https://notehub-public.goit.study/api/notes';
 
 interface NoteResponse {
